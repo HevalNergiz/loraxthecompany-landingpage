@@ -1,0 +1,98 @@
+.headerbt.left {
+  border-radius: 20px 0px 0px 20px;
+}
+
+.headerbt.right {
+  border-radius: 0px 20px 20px 0px;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #399d0a;
+  border-color: #399d0a;
+}
+
+@media (max-width: 400px) {
+  .headerbt {
+    height: 48px;
+    font-size: 15px;
+    width: 150px;
+  }
+}
+
+@media (min-width: 400px) {
+  .headerbt {
+    height: 48px;
+    font-size: 18px;
+    width: 180px;
+  }
+}
+
+@media (min-width: 470px) {
+  .headerbt {
+    height: 48px;
+    font-size: 20px;
+    width: 200px;
+  }
+}
+
+@media (min-width: 700px) {
+  .headerbt {
+    height: 48px;
+    width: 250px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  #headerbox {
+    margin: 5px 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  #headerbox {
+    margin: 0px;
+  }
+}
+
+.btn-primary {
+  color: #000000;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .headerparagraph {
+    max-width: 100%;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .headerparagraph {
+    max-width: 45%;
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  .headerparagraphdiv {
+    padding-top: 75px;
+  }
+}
+
+@media (min-width: 768px) {
+  .headerparagraphdiv {
+    padding-top: 165px;
+  }
+}
+
+.intro {
+  width: 80%;
+}
+
+.nav-item {
+  margin: 0px 25px;
+}
+
